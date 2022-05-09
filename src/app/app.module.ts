@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SidebarMainComponent } from './components/sidebar-main/sidebar-main.component';
 import { SidebarSecondaryComponent } from './components/sidebar-secondary/sidebar-secondary.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { DashboardComponent } from './components/sidebar-main/dashboard/dashboard.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { HomeComponent } from './components/home/home.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './components/sidebar-main/home/home.component';
+import { ContactComponent } from './components/sidebar-main/contact/contact.component';
+import { LoginComponent } from './components/sidebar-main/login/login.component';
+import { VendorFinanceComponent } from './components/sidebar-main/vendor-finance/vendor-finance.component';
+import { DealerFinanceComponent } from './components/sidebar-main/dealer-finance/dealer-finance.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { LoginComponent } from './components/login/login.component';
     FooterComponent,
     HomeComponent,
     ContactComponent,
-    LoginComponent
+    LoginComponent,
+    VendorFinanceComponent,
+    DealerFinanceComponent
   ],
   imports: [
     BrowserModule,
